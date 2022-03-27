@@ -38,7 +38,7 @@ func getChapterInfo(buf *bufio.Writer) {
 }
 
 // 使用colly来爬取网站
-func main() {
+func main1() {
 	// 创建一个文件
 	fp, err := os.Create("content.txt")
 	if err != nil {

@@ -105,7 +105,5 @@ func GetAllcapter() {
 
 func main() {
 	// 使用正则爬取
-	// GetAllcapter()
-	// 使用colly爬起
-	CollySpider()
+	GetAllcapter()
 }
