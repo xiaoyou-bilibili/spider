@@ -36,7 +36,6 @@ dotnet add package System.Text.Encoding.CodePages --version 6.0.0
 
 ### 运行项目
 ```bash
-#--project spider 可以不加，不加需要到项目里面去运行
-dotnet run --project spider
+dotnet run
 ```
 更多命令参考：https://docs.microsoft.com/zh-cn/dotnet/core/tools/dotnet-build
