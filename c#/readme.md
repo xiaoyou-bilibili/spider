@@ -14,11 +14,6 @@ sudo apt-get update; \
   sudo apt-get install -y apt-transport-https && \
   sudo apt-get update && \
   sudo apt-get install -y dotnet-sdk-6.0
-# 安装运行时
-sudo apt-get update; \
-  sudo apt-get install -y apt-transport-https && \
-  sudo apt-get update && \
-  sudo apt-get install -y aspnetcore-runtime-6.0
 # 最后验证一下是否安装成功
 dotnet --version
 dotnet --info
@@ -29,9 +24,9 @@ dotnet --info
 dotnet new console --output spider
 ```
 
-### 安装扩展包（需要支持GBK编码，这个要在spider项目里执行）
+### 还原包
 ```bash
-dotnet add package System.Text.Encoding.CodePages --version 6.0.0
+dotnet restore
 ```
 
 ### 运行项目
