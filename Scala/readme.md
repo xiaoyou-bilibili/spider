@@ -21,6 +21,8 @@ sbt new scala/scala3.g8
 
 ### 编译代码
 ```bash
-# 我们可以先编译scala代码
-scalac spider.scala
+# 编译项目
+sbt compile
+# 运行项目
+sbt run
 ```
