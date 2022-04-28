@@ -36,14 +36,20 @@ swift --version
 
 ### 初始化swift项目（不需要执行）
 ```bash
-swift package init
+swift package init --type executable
 ```
+
+### 依赖安装
+所有的依赖都会放在`Package.swift`里面
 
 ### 运行代码
 ```bash
 cd spider
 # 运行单个文件
 swift xxx.swift
-# 运行项目
+# 构建项目
 swift build
+# 运行项目
+swift run spider
 ```
+> swift因为编码找不到很好的解决方案，这里处于未完成的状态
