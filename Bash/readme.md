@@ -7,3 +7,6 @@ bash --version
 ```
 
 ### 运行脚本
+```bash
+bash spider.sh
+```

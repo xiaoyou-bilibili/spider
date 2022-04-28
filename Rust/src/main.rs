@@ -58,5 +58,4 @@ async fn main() {
     println!("开始爬取");
     // 异步等待函数执行
     get_chapter().await;
-    // get_content("http://www.qiushuge.net/zhongjidouluo/451062/").await;
 }
