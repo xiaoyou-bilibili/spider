@@ -25,6 +25,8 @@ go get -u github.com/gocolly/colly
 ```
 
 ### 编译运行
+> 注意，go项目里面只能有一个main函数，所以`main.go` 和 `colly.go`只能保留一个
+
 ```bash
 # 使用正则
 go run main.go
